@@ -1,0 +1,46 @@
+.title{
+    margin: auto;
+}
+.personalList{
+    list-style-type: none;
+    padding: 40px;
+}
+.styledForm{
+    margin: auto;
+    margin-top:20px;
+}
+.personalList li {
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.personalList li a{
+    text-decoration: none;
+
+}
+.personalList li a svg{
+    color: #3e497a;
+}
+.personalList li a svg :hover{
+    color: #6873a5;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media only screen and (max-width: 800px){
+    .personalList{
+        padding: 0;
+    }
+    .container {
+        flex-direction: column;
+        margin: auto;
+    }
+    .personalList li{
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    
+    }
